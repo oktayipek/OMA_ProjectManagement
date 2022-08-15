@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Login Page";
+}
+<h1>@ViewData["Title"]</h1>
+
+<div class="text-center">
+    <main class="form-signin w-100 m-auto">
+        <form>
+            <img class="mb-4" src="https://cdn.icon-icons.com/icons2/1736/PNG/512/4043254-avatar-elderly-grandma-nanny_113280.png" alt="" width="200" height="200">
+            <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+            
+                <div class="form-floating mb-3 d-flex justify-content-center">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="user">
+                    <label for="floatingInput">User id</label>
+                </div>
+                <div class="form-floating mb-3 d-flex justify-content-center">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Password</label>
+                </div>
+
+            <div class="checkbox mb-3">
+                <label>
+                    <input type="checkbox" value="remember-me"> Remember me
+                </label>
+            </div>
+            <button class="w-25 btn btn-lg btn-primary" type="submit">Sign in</button>
+            <p class="mt-4 mb-3 text-muted">© 2022</p>
+        </form>
+    </main>
+</div>

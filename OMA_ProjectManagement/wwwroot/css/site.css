@@ -16,3 +16,14 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.form-floating{
+    width: 50%;
+    margin: auto;
+}
+
+@media (max-width: 600px){
+    .form-floating {
+        width: 75%;
+    }
+}
